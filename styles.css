@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+}
+
+header, main, footer, .header-style{
+    padding: 20px;
+}
+
+header{
+    background-color: peachpuff;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Klee One', cursive;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+main{
+    font-family: 'Klee One', cursive;
+}
+
+footer{
+    background-color: peachpuff;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Klee One', cursive;
+}
+
+h1 {color:blue;
+    font-family: 'Klee One', cursive;
+}
+
+h3 {color: blue;
+    font-family: 'Klee One', cursive;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Klee One', cursive;
+}
+
+p:hover{
+    color: blue;
+    font-size: 18px;
+}
+
+p{
+    transition: font-size 2s linear 1s;
+}
+
+span{
+    font-family: 'Klee One', cursive;
+}
+
+span:hover{
+    color:blue
+}
+
+meter::-webkit-meter-bar{
+    border-radius: 100px;
+    width: 90%;
+    transition: width 2s ease-in-out 1.5s;
+}
+
+meter::-webkit-meter-bar:hover{
+    width: 100%;
+}
+
+.business-skill > meter::-webkit-meter-optimum-value {
+    background:green;
+}
+
+.excel-skill > meter::-webkit-meter-optimum-value {
+    background:orange;
+}
+
+.coding-skill > meter::-webkit-meter-optimum-value {
+    background:red;
+}
+
+.header-style{
+    background-color: peachpuff;
+    margin-top: 0;
+    margin: 0 auto;  
+}    
+
+.header-container{
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 100%;
+    font-family: 'Klee One', cursive;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 100%;
+    font-family: 'Klee One', cursive;
+}
+
+#skill-formatting{
+    display: flex;
+    width: 50%;
+    justify-content: space-between; 
+}
+
+.experience-formatting{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.experience-year-company{
+    flex: 2;
+}
+  
+.experience-title-desc {
+    flex: 1;
+}
+
+@media (max-width: 720px){
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .experience-formatting{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        };
+        .menu {
+            flex-direction: column;
+          }
+          .nav-links {
+            display: flex;
+            flex-direction: column;
+          }
+      ​
+          /* About Section */
+          .about {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: center;
+          }
+      ​
+          /* Skills Section */
+          #skill-formatting {
+            width: 270px;
+          }
+      ​
+          /* Experience Section */
+          .experience-formatting {
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 250px;
+          };
+      }
+    
+    .p-format{
+        width: 80%;
+        margin: 20px 150px auto auto;
+        text-align: center;
+    }
+    
+    .p-format1{
+      width: 80%;
+      margin: 20px 150px auto auto;
+      text-align: left;
+      font-size: 0.8rem
+    }
+    
+ 
